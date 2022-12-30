@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Skyrim;
+    src: url(/Fonts/Skyrim/Skyrim2.ttf);
+}
+
+@font-face {
+    font-family: Skyrim2;
+    src: url(/Fonts/Skyrim/Skyrim2.ttf);
+}
+
+@font-face {
+    font-family: GoW;
+    src: url(/Fonts/GodOfWar/GODOFWAR.TTF);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -58,11 +73,44 @@ header{
     position: absolute;
     inset: 0;
     opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
 }
 
 .slide[data-active]
 {
     opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+
+.img1{
+    background-image: url(/Images/First-Era-Background.jpg);
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.img2{
+    background-image: url(/Images/Second-Era-Background.jpg);
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.img3{
+    background-image: url(/Images/Third-Era-Background.png);
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.img4{
+    background-image: url(/Images/present-background.jpg);
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
 }
 
 .slide >img{
@@ -103,9 +151,57 @@ header{
     color: #FFFFFF;
 }
 
-.paragraph{
-    font-size: medium;
+.lore{
+    text-decoration:underline;
+    font-size: 30px;
     padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Skyrim;
+    font-size: 60px;
+    background-image:url(/Images/NavbarBackground.jpg);
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+}
+
+.lore-Heading{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+    font-family: GoW;
+    color: #FFFFFF ;
+    text-decoration: underline;
+
+}
+
+.lore-subHeading{
+    font-family: GoW;
+    font-size: 30px;
+    text-decoration: overline;
+    color: #FFFFFF ;
+}
+
+.paragraph{
+    margin-right: 80px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: #FFFFFF ;
+    font-family: Skyrim;   
+    padding-bottom: 30px; 
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top:0;
+    background: radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,1));
+}
+
+.subHeadList{
+    padding-left: 50px;
+    padding-top: 30px;
     color: #FFFFFF;
 }
 

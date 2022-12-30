@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="/script.js" defer></script>
 </head>
 <body>
     <header>The Elder Scrolls V : Skyrim</header>
@@ -15,7 +16,7 @@
         <span>Locations</span>
         <span>Skills</span>
         <span>Music</span>
-        <span>Characters</span>
+        <span>Races</span>
     </nav>
     <hr>
     <div class="main">
@@ -28,8 +29,8 @@
         </div>
         <hr class="Hr">
         <div>
-            <h2 class="subheading">About</h2>
-            <p class="paragraph">
+            <h2 class="subheading" style="font-family: GoW;">About</h2>
+            <p class="paragraph" style="color:white ;">
                 The Elder Scrolls V: Skyrim is an action role-playing video game developed by Bethesda Game Studios and published 
                 by Bethesda Softworks. It is the fifth main installment in The Elder Scrolls series, following 2006's 
                 The Elder Scrolls IV: Oblivion, and was released worldwide for Microsoft Windows, PlayStation 3, and Xbox 360 
@@ -50,22 +51,243 @@
     </section>
       <hr class="Hr">
     <section class="box2">
-        <h2>Lore</h2>
-        <div class="carousel">
-            <button class="carousel-button prev">&#8656;</button>
-            <button class="carousel-button next">&#8658;</button>
-            <ul>
+        <h2 class="lore">Lore</h2>
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+            <ul data-slides>
                 <li class="slide" data-active>
-                    <img src="/Images/ACO_1.jpg" alt="image#1">
+                    <div class="img1">
+                        <div class="overlay">
+                            <h1 class="lore-Heading">The First Era</h1>
+                            <ol class="subHeadList">
+                                <li>
+                                    <h2 class="lore-subHeading">The Night Of Tears</h2>
+                                    <p class="paragraph">
+                                        This tome, written by Dranor Seleth, details the complete history of 
+                                        the Nedes and how they came to Skyrim from Atmora, as well as how 
+                                        they constructed and settled the city of Saarthal. After their arrival,
+                                        the Nedes began a great alliance with the Snow Elves, and both races believed 
+                                        that a lasting peace between them would endure. At some point the Snow Elves began 
+                                        to fear the growing population of the Nedes, and the possibility that they might expand 
+                                        beyond Saarthal and settle all of Skyrim. So the Snow Elves broke their alliance with the 
+                                        Nedes by sending a legion of their troops to Saarthal in which they brutally slaughtered every
+                                        last man, woman and child in the city. The remaining Nedes who survived the attack returned to
+                                        Atmora to tell of the night's events. Thus they gathered the Five Hundred Companions to return 
+                                        to Skyrim on the day which would later be known as the Day of Final Passage. When they landed in Skyrim 
+                                        they fought a huge battle against the Snow Elves, eventually winning. Over time, the Nedes would 
+                                        develop into the Nords, and would eventually settle all of Skyrim. The events which involve
+                                            the entire Nede race traveling from Atmora to Skyrim would later be referred to as The Return.
+                                            The event that occurred in Saarthal would later be known as the Night of Tears, and would 
+                                            stay with the Nords as a part of their history and culture, as well as their hatred of the 
+                                            Snow Elves and essentially all Elven-kind. 
+                                    </p>
+                                </li>
+                                <li>
+                                    <h2 class="lore-subHeading">The Battle of Red Mountain</h2>
+                                    <p class="paragraph"> 
+                                        The First Council was held together for hundreds of years thanks to the friendship between Dumac and Nerevar. 
+                                        However, through means lost to history, Lord Voryn Dagoth of House Dagoth learned of a Dwemer scheme: deep in
+                                         the bowels of Red Mountain on the island of Vvardenfell, the Dwemer had found the Heart of Lorkhan, and High 
+                                         Craftlord Kagrenac planned to harness it and use it to power a giant mechanical god. Lord Dagoth 
+                                         reported this to the Chimer leadership, and eventually, the Hortator Nerevar confirmed it with his patron
+                                          Azura. Nerevar confronted his friend Dumac, and they quarreled bitterly (some sources assert Dumac did
+                                           not know of Kagrenac's plan at the time and thus misunderstood Nerevar's concerns). As a result,
+                                            Nerevar led the Chimer to war in order to stop this "profane" usurpation.
+                                        <br>
+                                        At the start of the war, Dwemeri forces were concentrated in the northwest of the province, and their
+                                         campaign initially had great success throughout the north. There is speculation that many of
+                                          the great metal automatons the Dwemer used as troops in the battle were built in the Great Workshops of 
+                                          Nchardak on the island of Solstheim. The coastal Dwemeri city was reputedly able to produce one automaton 
+                                          a day, an apparently impressive rate of production.[10] Many outlanders were at the battle, notably Orcs
+                                           and Nords, and sources often designate them as allies of the Dwemer.
+                                        <br>
+                                        Nerevar, meanwhile, led his united people, the nomadic Ashlanders as well as the Great Houses 
+                                        (House Redoran, in particular, likes to trumpet its substantial contribution of warriors to the battle)
+                                        .Nerevar did not have full control of the Chimer forces until a series of defeats convinced the Great 
+                                        Houses to relinquish command.[9] Once he had full command of the Chimer forces, Nerevar carefully orchestrated
+                                         a confrontation at Dumac's citadel, a great Dwemer stronghold within Red Mountain where the Heart was being
+                                          kept.
+                                        <br>
+                                        The bulk of Nerevar's troops left Narsis and headed north at roughly the same time as a horde
+                                         of westerners entered Morrowind from the west and began crossing the Inner Sea.Some sources 
+                                         claim that all who opposed Nerevar's forces in the battle were exterminated.Others state that 
+                                         while all enemies of the Chimer forces were decisively defeated, only the Dwemer were wiped out 
+                                         completely.
+                                    </p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
                 </li>
                 <li class="slide">
-                    <img src="/Images/ACO_2.jpg" alt="image#2">
+                    <div class="img2">
+                       <div class="overlay">
+                            <h1 class="lore-Heading">The Second Era</h1>
+                            <ol class="subHeadList">
+                                <li>
+                                    <h2 class="lore-subHeading">The Tiber Wars</h2>
+                                    <p class="paragraph">
+                                        The Tiber Wars were inspired when the Greybeards told Tiber Septim that he was
+                                        destined to become the Emperor of Tamriel.[2][7] After the death of Cuhlecain, 
+                                        Tiber Septim took his role, and started his conquest of Tamriel in the 855th year
+                                        of the Second Era or in the 854th year of the Second Era.[5][4] Tiber himself, however,
+                                        found the initial administration of a fully united Cyrodiil a time-consuming task, and, 
+                                        because of this, the Underking dealt with the Imperial expansion into Skyrim and High Rock.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h2 class="lore-subHeading">Three Banner Wars</h2>
+                                    <p class="paragraph">
+                                        The Alliance War, also known as the Three Banners War, was a war that occurred during
+                                         the Second Era, which began in 2E 580 shortly after the First Aldmeri Dominion was formed 
+                                         when Queen Ayrenn returned to the Summerset Isles after decades of adventuring. The three 
+                                         alliances involved were the First Aldmeri Dominion, the Ebonheart Pact, and the Daggerfall 
+                                         Covenant, all of which were fighting to rule Tamriel.
+                                         <br>
+                                         In 2E 578, Emperor Varen Aquilarios was convinced by Mannimarco that he knew a ritual 
+                                         which would allow him to become Dragonborn. Varen desired to further legitimize his claim 
+                                         to the Imperial throne by lighting the Dragonfires in the Temple of the One in the Imperial 
+                                         City, which can only be done by one of the Dragon Blood. Mannimarco and Varen were part of
+                                        a group referred to as the Five Companions, which also included Sai Sahan, Lyris Titanborn
+                                         and Abnur Tharn. The ritual turned out to be an elaborate trick by Mannimarco. He then
+                                        incapacitated the others and declared he was a servant of Molag Bal, and the ritual was 
+                                        actually one that would weaken the barriers between Mundus and Coldharbour.
+                                        <br>
+                                        Clivia Tharn was soon after named the new Empress Regent of Tamriel and turned the 
+                                        Empire to Daedra worship, in particular Molag Bal. But Clivia's father, Abnur Tharn,
+                                         who was the High Chancellor of the Elder Council and Overlord of Nibenay, despised Molag Bal 
+                                        and his minions. With the Tharn family divided, Clivia convinced Mannimarco to use his necromantic
+                                        abilities to resurrect Imperial Soldiers to bolster the Empire's forces. When the alliances saw
+                                        that the Empire was weak, they took advantage of its weakness in an attempt to expand their territory.
+                                        Thus, the war began.
+                                    </p>
+                                </li>
+                            </ol>
+                       </div>
+                    </div>
                 </li>
                 <li class="slide">
-                    <img src="/Images/ACO_3.jpg" alt="image#3">
+                    <div class="img3">
+                        <div class="overlay">
+                            <h1 class="lore-Heading">The Third Era</h1>
+                            <ol class="subHeadList">
+                                <li>
+                                    <h2 class="lore-subHeading">Septim Dynasty</h2>
+                                    <p class="paragraph">
+                                        The Septim Dynasty was founded by the legendary Talos, who took the Cyrodilic name of Tiber
+                                         Septim and later established the Third Empire of Tamriel in 2E 896 after decades of conquest, 
+                                         thus marking the end of the Second Era and the advent of the Third Era.
+                                        <br>
+                                        Under the Septims, Tamriel prospered and its provinces enjoyed peace and stability that 
+                                        had not been seen since before the chaotic centuries of the Interregnum. New conflicts would
+                                         still arise, however, which would stretch the Empire to the breaking point throughout the Third Era.
+                                          A battle over the royal succession ensued during the War of the Red Diamond between 3E 120 and 3E 127.
+                                           The Camoran Usurper seized control of Valenwood and Hammerfell from 3E 249 to 3E 267. 
+                                           Emperor Uriel Septim V spearheaded an ill-fated invasion of Akavir in 3E 288, resulting 
+                                           in the emperor's death and the loss of a considerable portion of the Empire's military strength. 
+                                           Imperial Battlemage Jagar Tharn overthrew the rightful emperor and ruled for a decade beginning in 
+                                           3E 389, a period that would become known as the Imperial Simulacrum.
+                                            <br>
+                                        Through all of these challenges, the Empire held and the Septim line survived. Their 
+                                        end came in 3E 433 with the onset of the Oblivion Crisis. Emperor Uriel Septim VII and his 
+                                        heirs were assassinated by the Mythic Dawn in a single night, and the Dragonfires ceased to 
+                                        burn. The Daedric Prince Mehrunes Dagon launched a massive invasion of Tamriel. Although one 
+                                        last Septim heir, Martin Septim, was located, he sacrificed himself to repel the Daedra and seal 
+                                        Mundus off from Oblivion forever. With the Septims gone and the Empire's fate uncertain, the Third 
+                                        Era concluded and the Fourth Era began.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h2 class="lore-subHeading">Oblivion Crisis</h2>
+                                    <p class="paragraph">
+                                        The Oblivion Crisis, also known as the Great Anguish, was a total war between the Daedra and the 
+                                        population of Tamriel. It began with the assassination of Uriel Septim VII and all of his known heirs
+                                         in 3E 433. Shortly afterward, Oblivion Gates to the Deadlands opened across Tamriel and Daedra 
+                                        poured out as the result of a fanatical cult of worshippers of Mehrunes Dagon known as the Mythic Dawn.
+                                        Widespread devastation and casualties resulted across entire provinces. The Daedra besieged Skyrim, and 
+                                        laid waste to the Old Holds.[5] In Black Marsh, the Hist called back many Argonians to fight off the 
+                                        Daedra. According to An-Xileel the Daedra were forced to close their Oblivion gates in Black Marsh due 
+                                        to Argonian counter invasion.[6] In Cyrodiil, the city of Kvatch was entirely destroyed.
+                                        <br>
+                                        Adril Arano, a Second Councilor of Raven Rock in the late Fourth Era, 
+                                        claimed that the Empire pulled most of its forces out of Morrowind during the 
+                                        Crisis.[8] However, this contradicts the words of High Chancellor Ocato himself during
+                                         the Crisis, who stated that Cyrodiil and cities such as Bruma were virtually defenseless
+                                          precisely because he was both unable and unwilling to pull any troops out of the other provinces.
+                                           Indeed, the Imperial Province was left almost entirely to its own devices, and no foreign legions
+                                            were ever found within Cyrodiil for the entirety of the Crisis or its immediate aftermath. Still, 
+                                            a history of the Raven Rock colony records that the bulk of the Imperial Guard stationed there was 
+                                            recalled to Cyrodiil from the then-Nordic Solstheim, though the author's source for this matter are 
+                                            the Redoran Dunmer of the settlement.
+                                        <br>
+                                        The Empire was near collapse, but Uriel VII's illegitimate son, 
+                                        Martin Septim, ended the invasion with the help of a mysterious hero, but
+                                         the cost was enormous. Martin, the last of the Septim bloodline, sacrificed 
+                                         himself and the Amulet of Kings to become an Avatar of Akatosh and cast Mehrunes Dagon 
+                                         back into Oblivion. This event marked the end of the Third Era.
+                                    </p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
                 </li>
                 <li class="slide">
-                    <img src="/Images/ACO_4.jpg" alt="image#4">
+                    <div class="img4">
+                        <div class="overlay">
+                            <h2 class="lore-Heading">The Fourth Era</h2>
+                            <ol class="subHeadList">
+                                <li>
+                                    <h2 class="lore-subHeading">White Gold Concordat</h2>
+                                    <p class="paragraph">
+                                        The White-Gold Concordat was a treaty signed in 4E 175 between the Empire 
+                                        and the Aldmeri Dominion that ended the Great War. The conditions of the 
+                                        treaty outlawed the worship of Talos in the Empire, formally disbanded the
+                                        Blades, and delivered a large portion of southern Hammerfell into the control
+                                        of the Aldmeri Dominion. Emperor Titus Mede II made these concessions to the T
+                                        halmor hierarchy in order to give the Imperial Legion time to recover its strength, 
+                                        as it had been decimated in the Battle of the Red Ring.
+                                        <Br>
+                                        The Redguards of Hammerfell, however, refused to accept the terms of the 
+                                        White-Gold Concordat, and continued to resist the Thalmor. This forced Titus Mede 
+                                        to officially renounce Hammerfell as a province of the Empire in order to preserve 
+                                        the peace stipulated in the treaty. Viewing this as a betrayal, Hammerfell became an 
+                                        independent state, and managed to fight the Dominion to a standstill, culminating in 
+                                        the signing of the Second Treaty of Stros M'Kai five years later in 4E 180, which resulted
+                                        in all Aldmeri forces withdrawing from Hammerfell. Hammerfell thus became an independent,
+                                        if devastated, nation. Diplomatic relations between Hammerfell and the Empire remain 
+                                        strained, an outcome that Legate Justianus Quintius postulates was a long-term goal of the Thalmor.
+                                        <br>
+                                        Specifically, the ban enforced regarding the worship of Talos greatly angered the people 
+                                        of Skyrim. The Stormcloak Rebellion began when Ulfric Stormcloak and his men were arrested at 
+                                        Markarth by the orders of the Thalmor,[2] due to them demanding free Talos worship from the 
+                                        Legion. The Talos ban was not enforced in the province prior to this event, and at the time 
+                                        of the Incident, Ulfric was considered an active Thalmor asset.
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <h2 class="lore-subHeading">Stormcloak Rebellion</h2>
+                                    <p class="paragraph">
+                                        The Stormcloak Rebellion, also known as the Skyrim Civil War, was a civil 
+                                        war in Skyrim fought between the forces of the Empire, mobilized in western Skyrim,
+                                         and the Stormcloak rebels of eastern Skyrim, in 4E 201. Many years beforehand, Jarl
+                                         Ulfric Stormcloak of Windhelm formed the Stormcloaks as his personal army to carry 
+                                         out his agenda. Soon after the young Torygg was appointed High King by the Moot and 
+                                         ascended to the throne of Skyrim, Ulfric traveled to the High King's court in Solitude
+                                         and challenged Torygg to single combat for Skyrim's throne, in order to secede from the Empire.
+                                        Ulfric killed Torygg with the Thu'um, after which he stabbed with a sword, and fled the city.
+                                         He was branded a murderer and traitor by the Empire.
+                                            <br>
+                                        The Imperial Legion under General Tullius moved in to secure Imperial territory as 
+                                        the jarls began picking sides. On the 15th of Last Seed, less than a year after the start 
+                                        of the conflict, Ulfric and his men were ambushed by the Legion outside Darkwater
+                                         Crossing in southern Eastmarch. After surrendering, they traveled for two days until they
+                                          arrived in Helgen for execution. In a twist of fate, the village was suddenly attacked.
+                                    </p>
+                                 </li>
+                            </ol>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
