@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>The Elder Scrolls V : Skyrim</header>
+    <hr>
     <nav>
         <span style="padding-right: 50%;">Home</span>
         <span>Locations</span>
@@ -16,14 +17,17 @@
         <span>Music</span>
         <span>Characters</span>
     </nav>
+    <hr>
     <div class="main">
-     <div class="box">
-        <span class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/JSRtYpNRoN0?autoplay=1" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-             gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </span>
-        <span>
+     <section class="box1">
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/JSRtYpNRoN0?start=4&autoplay=1&mute=1&modestbranding=1&rel=0&cc_load_policy=1&iv_load_policy=3&controls=1" 
+            width="1280" height="720" title="The Elder Scrolls V: Skyrim - Official Trailer" frameborder="0" allowfullscreen>
+            </iframe>
+            
+        </div>
+        <hr class="Hr">
+        <div>
             <h2 class="subheading">About</h2>
             <p class="paragraph">
                 The Elder Scrolls V: Skyrim is an action role-playing video game developed by Bethesda Game Studios and published 
@@ -42,8 +46,30 @@
                 to engage in.[2] Players may navigate the game world more quickly by riding horses, paying for a ride from a city's stable, or 
                 utilizing a fast-travel system that allows them to move their character immediately to a previously discovered location.
             </p>
-        </span>
-      </div>
+        </div>
+    </section>
+      <hr class="Hr">
+    <section class="box2">
+        <h2>Lore</h2>
+        <div class="carousel">
+            <button class="carousel-button prev">&#8656;</button>
+            <button class="carousel-button next">&#8658;</button>
+            <ul>
+                <li class="slide" data-active>
+                    <img src="/Images/ACO_1.jpg" alt="image#1">
+                </li>
+                <li class="slide">
+                    <img src="/Images/ACO_2.jpg" alt="image#2">
+                </li>
+                <li class="slide">
+                    <img src="/Images/ACO_3.jpg" alt="image#3">
+                </li>
+                <li class="slide">
+                    <img src="/Images/ACO_4.jpg" alt="image#4">
+                </li>
+            </ul>
+        </div>
+      </section>
     </div>
 </body>
 </html>
